@@ -17,4 +17,4 @@ COPY --from=builder /pecker/pecker_back /pecker/
 VOLUME /data
 
 CMD ["./pecker_back"]
-EXPOSE 52001
+EXPOSE 56001
